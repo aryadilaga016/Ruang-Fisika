@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuk uji kemampuanmu dengan menjawab soal-soal berikut !"
+        android:fontFamily="@font/baloo"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/teal_700"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/soal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="Soal 1"
+        android:gravity="center"
+        android:onClick="soal1"/>
+
+    <Button
+        android:id="@+id/soal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="Soal 2"
+        android:gravity="center"
+        android:onClick="soal2"/>
+
+    <Button
+        android:id="@+id/soal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="Soal 3"
+        android:gravity="center"
+        android:onClick="soal3"/>
+
+</LinearLayout>

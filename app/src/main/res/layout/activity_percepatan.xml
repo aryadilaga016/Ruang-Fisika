@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/putih"
+    tools:context=".Percepatan">
+
+    <TextView
+        android:id="@+id/tvGravitasi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="PERCEPATAN"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivGravitasi"
+        android:layout_width="130dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGravitasi1"
+        app:srcCompat="@drawable/exercise_80px" />
+
+    <TextView
+        android:id="@+id/tvGravitasi2"
+        android:layout_width="381dp"
+        android:layout_height="320dp"
+        android:text="Percepatan (acceleration) adalah perubahan kecepatan dalam selang waktu tertentu. Percepatan merupakan besaran vektor, sehingga nilainya dapat berharga positif atau negatif. Percepatan yang berharga negatif disebut perlambatan. Sedangkan percepatan yang berharga positif disebut percepatan saja.  Arah perlambatan berlawanan dengan arah percepatan. Alat untuk mengukur besar percepatan suatu benda yang bergerak disebut accelerometer. "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGravitasi"
+        app:layout_constraintVertical_bias="0.257" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

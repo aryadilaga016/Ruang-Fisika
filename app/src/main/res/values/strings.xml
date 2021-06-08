@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aplikasi Fisika</string>
+    <string name="ruang_fisika">Ruang Fisika</string>
+    <string name="belajar_fisika_itu_mudah">Belajar Fisika itu Mudah</string>
+    <string name="gravitasi">Gravitasi</string>
+    <string name="energi">Energi</string>
+    <string name="daya">Daya</string>
+    <string name="percepatan">Percepatan</string>
+    <string name="massa">Massa</string>
+    <string name="tekanan">Tekanan</string>
+    <string name="energi_potensial">Energi Potensial</string>
+    <string name="frekuensi">Frekuensi</string>
+    <string name="gerak_lurus_beraturan">Gerak Lurus Beraturan</string>
+    <string name="momentum">Momentum</string>
+    <string name="periode">Periode</string>
+    <string name="perhitungan_daya">Daya</string>
+
+</resources>

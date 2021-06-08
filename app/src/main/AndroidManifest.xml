@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ujiantengahsemester.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".soal4_recycleview"></activity>
+        <activity android:name=".Massa"></activity>
+        <activity android:name=".Percepatan" />
+        <activity android:name=".Daya" />
+        <activity android:name=".Energi" />
+        <activity android:name=".Tekanan" />
+        <activity android:name=".Gravitasi" />
+        <activity android:name=".PerhitunganEnergiPotensial" />
+        <activity android:name=".PerhitunganFrekuensi" />
+        <activity android:name=".PerhitunganGaya" />
+        <activity android:name=".PerhitunganDaya" />
+        <activity android:name=".PerhitunganMomentum" />
+        <activity android:name=".PerhitunganPeriode" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuUtama"></activity>
+        <activity android:name=".HalamanUtama"></activity>
+        <activity android:name=".Perhitungan"></activity>
+        <activity android:name=".TestFisika"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Soal1"></activity>
+        <activity android:name=".Soal2"></activity>
+        <activity android:name=".Soal3"></activity>
+    </application>
+
+</manifest>
